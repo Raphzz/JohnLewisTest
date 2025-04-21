@@ -7,5 +7,7 @@ enum L10n {
     
     enum Catalog {
         static let title = NSLocalizedString("catalog_title", comment: "Catalog screen title")
+        static let titleLoaded = NSLocalizedString("catalog_title_loaded", comment: "Catalog screen title with items count")
+        static let apiError = NSLocalizedString("catalog_error", comment: "Error fetching API")
     }
 } 

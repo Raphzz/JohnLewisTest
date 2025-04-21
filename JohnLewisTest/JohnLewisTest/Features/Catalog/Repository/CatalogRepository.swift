@@ -12,6 +12,6 @@ class CatalogRepository: CatalogRepositoryProtocol {
     }
     
     func fetchCatalog() async throws -> CatalogResponse {
-        return try await apiClient.fetch("/products/search?q=dishwasher&key=Wu1X6PcTWH")
+        return try await apiClient.fetch("mockData/data.json?ref_type=heads")
     }
 } 

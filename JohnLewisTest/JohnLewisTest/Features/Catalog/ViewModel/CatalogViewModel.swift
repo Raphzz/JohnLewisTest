@@ -21,7 +21,11 @@ class CatalogViewModel: ObservableObject {
     }
     
     var title: String {
-        String(format: L10n.Catalog.title, "\(items.count)")
+        guard !items.isEmpty else {
+            return String(format: L10n.Catalog.title)
+        }
+
+        return String(format: L10n.Catalog.titleLoaded, "\(items.count)")
     }
     
     func loadCatalog() {

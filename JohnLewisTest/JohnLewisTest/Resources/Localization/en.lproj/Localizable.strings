@@ -3,3 +3,5 @@
 
 /* Catalog */
 "catalog_title" = "Dishwashers";
+"catalog_title_loaded" = "Dishwashers (%@)";
+"catalog_error" = "Error fetching dishwashers";

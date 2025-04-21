@@ -11,7 +11,7 @@ enum APIError: Error {
 class APIClient {
     static let shared = APIClient()
     
-    private let baseURL = "https://api.johnlewis.com/v1"
+    private let baseURL = "https://gitlab.com/jlp-jobs/jlp-ios-engineer-test/-/raw/main/"
     private let session: URLSession
     
     private init() {
