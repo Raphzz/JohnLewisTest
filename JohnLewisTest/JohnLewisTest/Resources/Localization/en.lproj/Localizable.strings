@@ -5,3 +5,5 @@
 "catalog_title" = "Dishwashers";
 "catalog_title_loaded" = "Dishwashers (%@)";
 "catalog_error" = "Error fetching dishwashers";
+"catalog_retry" = "Retry";
+"catalog_no_results" = "No results available";
